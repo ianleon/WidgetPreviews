@@ -35,7 +35,7 @@ struct WidgetPreview: ViewModifier {
 }
 
 @available(iOS 15, macOS 12.0, *)
-extension View {
+public extension View {
     func previewSmallWidget() -> some View {
         modifier(WidgetPreview(width: 160, height: 160))
     }
