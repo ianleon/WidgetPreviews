@@ -56,8 +56,7 @@ public extension View {
 @available(iOS 15, macOS 12.0, *)
 struct PreviewWidget_Previews: PreviewProvider {
     static var previews: some View {
-        
-        return Text("Hello World!")
+        Text("Hello World!")
             .previewSmallWidget()
             .previewMediumWidget()
             .previewLargeWidget()
