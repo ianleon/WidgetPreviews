@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "muscovado",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ianleon/Muscovado.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b8349bd58802ccea3cdfa06e18de063fb9fcf12f"
+      }
+    }
+  ],
+  "version" : 2
+}
